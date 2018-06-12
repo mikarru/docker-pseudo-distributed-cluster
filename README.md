@@ -4,7 +4,7 @@
 
 ```
 $ cd docker-pseudo-distributed-cluster
-$ docker build docker-pseudo-distributed-cluster:1.0 .
+$ docker build -t docker-pseudo-distributed-cluster:1.0 .
 ```
 
 ## run container
