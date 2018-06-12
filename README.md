@@ -10,7 +10,7 @@ $ docker build -t docker-pseudo-distributed-cluster:1.0 .
 ## run container
 
 ```
-$ docker run --privileged -d --name docker_hadoop docker-pseudo-distributed-cluster:1.0 /sbin/init
+$ docker run --privileged -p 50070:50070 -d --name docker_hadoop docker-pseudo-distributed-cluster:1.0 /sbin/init
 ```
 
 ## attach container
